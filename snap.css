@@ -1,0 +1,161 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background:url('images/banner.jpg') no-repeat  fixed;
+    background-size:100% auto;
+    font-family:arial , helvetica , sans-serif;
+}
+.header
+{
+    margin-top:100px;
+    text-align:center;
+    color:#FFFFFF;
+}
+h1
+{
+    text-transform:capitalize;
+    font-size:60px;
+    font-weight:500;
+    
+}
+.header p
+{
+    font-size:20px;
+    font-weight:100;
+}
+.header a
+{
+    font-size:20px;
+    display:block;
+    margin:auto;
+    text-decoration:none;
+    border: solid rgba(213, 219, 219, .2) 2px;
+    color:#FFFFFF;
+    width:130px;
+    margin:50px auto 200px auto;
+    padding:20px;
+}
+.header a:hover
+{
+    background-color:rgba(240, 243, 243, .2);
+}
+/*WHAT'S NEW*/
+.whatsNew
+{
+    padding:30px 50px 25px 50px;
+    
+    margin:auto 0px 0 0px;
+    width:100%;
+    height:auto;
+    background-color:#fff;
+    text-align:center;
+    font-weight:100;
+    
+}
+.whatsNew h3
+{
+    font-size:30px;
+     font-weight:100;
+    margin-bottom:25px
+    
+}
+.tofloat
+{
+    width:25%;
+    height:350px;
+    float:left;
+    
+}
+
+.full
+{
+    display:block;
+    margin:50px auto 30px;
+    text-decoration:none;
+    font-size:19px;
+    border:solid;
+    width:170px;
+    padding:20px;
+    color:#FFFFFF;
+    background-color:#4DD8FB;
+        
+}
+.main
+{
+    background-color: #fff;
+    padding:0px 50px 60px 50px;
+    width:100%;
+}
+.aboutme
+{
+    background-color:#EAEDED;
+    display:inline-block;
+    width:50%;
+    height:auto;
+    padding:18px;
+        margin-right:0px;
+    
+}
+.aboutme h3
+{
+    font-size:20px;
+    font-weight:100;
+    margin-bottom:50px;
+}
+.aboutme p
+{
+    font-size:14px;
+    font-weight:100;
+    line-height:30px;
+    color:#616368;
+        margin-bottom:50px;
+}
+.intouch
+{
+    
+     display:inline-block;
+    width:40%;
+    padding:18px;
+    margin:0px;
+    background-color:#F8F9F9;
+}
+.intouch h3
+{
+    font-size:20px;
+    font-weight:100;
+    margin-bottom:35px;
+}
+.intouch label
+{
+    display:inline-block;
+    font-size:14px;
+    margin:20px 200px 20px 20px;
+    font-weight: 100;
+}
+.intouch input
+{
+    display:inline-block;
+    padding:10px;
+    margin:10px 15px 20px 20px;
+    width:200px;
+    border:solid 1px #97DCF3;
+}
+.intouch textarea
+{
+    width:480px;
+    height:99px;
+    margin:10px 15px 20px 20px;
+    padding:10px;
+     border:solid 1px #97DCF3;
+}
+.intouch input[type="submit"]
+{
+    color:#fff;
+    background-color:#17ACDD;
+    width:150px;
+    margin-bottom:35px;
+}
